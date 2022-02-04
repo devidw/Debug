@@ -17,7 +17,7 @@ composer require devidw/debug
 ----
 require_once __DIR__ . '/vendor/autoload.php';
 
-use DevidW\Debug\Debug;
+use Devidw\Debug\Debug;
 
 Debug::dump($var);
 ----
