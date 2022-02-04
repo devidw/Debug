@@ -1,0 +1,18 @@
+{
+    "name": "devidw/debug",
+    "description": "A PHP libary for debugging.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devidw\\Debug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Wolf",
+            "email": "david@wolf.gdn"
+        }
+    ],
+    "require": {}
+}

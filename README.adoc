@@ -1,0 +1,29 @@
+= Debug
+
+A PHP libary for debugging.
+
+
+== Installation
+You can install the libary with `composer`:
+
+[source,zsh]
+----
+composer require devidw/debug
+----
+
+
+== Usage
+[source,php]
+----
+require_once __DIR__ . '/vendor/autoload.php';
+
+use DevidW\Debug\Debug;
+
+Debug::dump($var);
+----
+
+
+***
+
+
+Syntax highlighting is done using https://highlightjs.org/[highlight.js] and the _Atom One Dark_ Theme.
